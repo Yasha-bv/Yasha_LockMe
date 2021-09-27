@@ -10,7 +10,7 @@ public class Files {
 
 	public static void listFiles() {
 
-		File fileDir = new File("C:\\Users\\Yasha\\");
+		File fileDir = new File("C:\\Users\\Public\\");
 		if (fileDir.isDirectory()) {
 			List listFile = Arrays.asList(fileDir.list());
 			Collections.sort(listFile);
@@ -23,6 +23,7 @@ public class Files {
 		} else {
 			System.out.println(fileDir.getAbsolutePath() + " is not a directory");
 		}
+		reUse();
 	}
 
 	public static void addFile() {
@@ -48,7 +49,7 @@ public class Files {
 			} else {
 				System.out.println("File already exist at location: " + file1.getCanonicalPath());
 			}
-
+			reUse();
 		}
 
 		catch (Exception ex1) {
@@ -56,7 +57,7 @@ public class Files {
 	}
 
 	public static void searchFile() {
-		File directory = new File("C://Users//Yasha//");
+		File directory = new File("C://Users//Public//");
 
 		String[] flist = directory.list();
 		int flag = 0;
@@ -79,24 +80,39 @@ public class Files {
 		if (flag == 0) {
 			System.out.println("File Not Found");
 		}
+		reUse();
 	}
 
 	public static void deleteFile() {
 		System.out.println("Enter file name to delete:");
 		Scanner searchScan = new Scanner(System.in);
 		String fileName = searchScan.next();
-		File file = new File("C:\\Users\\Yasha\\" + fileName);
+		File file = new File("C:\\Users\\Public\\" + fileName);
 
 		if (file.delete()) {
 			System.out.println("File deleted successfully");
 		} else {
 			System.out.println("Something went wrong...");
 		}
+		reUse();
 	}
 
 	public static void closeApp() {
 		System.out.println("Bye bye...");
 		System.exit(1);
+	}
+	
+	public static void reUse() {
+		System.out.println("Do you want to continue? (yes/no)");
+		Scanner scanAnswer = new Scanner(System.in);
+		String answer = scanAnswer.next();
+		if (answer.equals("yes")) {
+			Application.initApp();
+			FileManager.fileManagerOptions();
+		} else {
+			System.out.println("Thanks for using the LockMe application");
+			System.exit(1);
+		}
 	}
 
 }

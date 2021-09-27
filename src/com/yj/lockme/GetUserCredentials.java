@@ -12,13 +12,12 @@ public class GetUserCredentials {
 		System.out.println("==========================================");
 		System.out.println("*					*");
 		System.out.println("*   WELCOME TO DIGITAL LOCKER 	 *");
-		System.out.println("*   YOUR CREDS ARE 	 *");
+		System.out.println("*   Your Credentials are secured!!!	 *");
 		System.out.println("*					*");
 		System.out.println("==========================================");
 		System.out.println(inpUsername);
 
 		while (lockerInput.hasNext()) {
-			System.out.println(lockerInput.hasNext());
 			if (lockerInput.next().equals(inpUsername)) {
 				System.out.println("Site Name: " + lockerInput.next());
 				System.out.println("User Name: " + lockerInput.next());

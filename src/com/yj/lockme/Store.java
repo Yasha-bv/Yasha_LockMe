@@ -13,7 +13,7 @@ public class Store {
 	public static void storeCredentials(String loggedInUser, Credentials userCredentials, Scanner keyboard, PrintWriter lockerOutput) {
 		System.out.println("==========================================");
 		System.out.println("*					*");
-		System.out.println("*   Welcome to Locker, Store your Credentials here	 *");
+		System.out.println("*  Store your Credentials here          *");
 		System.out.println("*					*");
 		System.out.println("==========================================");
 		

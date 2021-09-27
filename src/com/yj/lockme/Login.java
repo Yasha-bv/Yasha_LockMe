@@ -11,7 +11,7 @@ public class Login {
 	public static void loginUser(Scanner input, Scanner keyboard) {
 		System.out.println("==========================================");
 		System.out.println("*					*");
-		System.out.println("*   WELCOME TO LOGIN PAGE	 *");
+		System.out.println("*   WELCOME TO LOGIN PAGE               *");
 		System.out.println("*					*");
 		System.out.println("==========================================");
 		System.out.println("Enter Username :");
