@@ -75,8 +75,8 @@ public class Application {
 		System.out.println("*   Welcome To LockedMe.com		*");
 		System.out.println("*   Your Personal Digital Locker	*");
 		System.out.println("*					*");
-		System.out.println("*	Developer Name - Yasha J		*");
-		System.out.println("*	Email - yasha@comviva.com		*");
+		System.out.println("*   Developer Name - Yasha  		*");
+		System.out.println("*   Email - yasha@comviva.com		*");
 		System.out.println("*					*");
 		System.out.println("==========================================");
 

@@ -35,6 +35,7 @@ public class Register {
 			Scanner scanAnswer = new Scanner(System.in);
 			String answer = scanAnswer.next();
 			if (answer.equals("yes")) {
+				Application.initApp();
 				Application.signInOptions();
 			} else {
 				System.out.println("Thanks for using the LockMe application");
