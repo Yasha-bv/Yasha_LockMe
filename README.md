@@ -8,10 +8,10 @@ is done in ascending order which is done with help of Linked List. Searching is 
 
 
 Tech stack:	 
-Language used- Java 
-File Handling 
-Data structure used- Linear Search for searching
-                   - Linked List for Sorting of the files in ascending by their names 
+Language used- Java. 
+File Handling.
+Data structure used- Linear Search for searching,
+                   - Linked List for Sorting of the files in ascending by their names.
                    
                    
 Below is the Sprint Plan
@@ -25,19 +25,19 @@ As a developer I want to build login page so that we can authenticate user.
 As a developer I want to create user interaction with console input. 
 
 Sprint 2  
-As a user I want to fetch all my credentials from lockme app 
-As a user I want to store my credentials in the lockme app 
-As a user i want to get list of files in ascending order by name so that I can see list of files from specific directory in lockme app 
-As a developer I want to build a logic to fetch credentials for a logged in user 
-As a developer I want to build a logic to store credentials for a logged in user 
-As a developer I want to build an algorithm to sort files in ascending order by their names 
+As a user I want to fetch all my credentials from lockme app
+As a user I want to store my credentials in the lockme app. 
+As a user i want to get list of files in ascending order by name so that I can see list of files from specific directory in lockme app. 
+As a developer I want to build a logic to fetch credentials for a logged in user. 
+As a developer I want to build a logic to store credentials for a logged in user.
+As a developer I want to build an algorithm to sort files in ascending order by their names. 
 
 Sprint 3 
-As a user i want to create a new file so that I can store my information 
-As a user I want to search for a file so that I can retrieve my information 
-As a user I want to delete a file so that I can remove unnecessary file 
-As a user I want to close lockme app when my work is finished 
-As a developer I want to build a logic to create files using Java file handlers 
-As a developer I want to build an algorithm to search files by their names 
-As a developer I want to build a logic to delete files using Java file handlers 
-As a developer I want to build a logic to close the application 
+As a user i want to create a new file so that I can store my information. 
+As a user I want to search for a file so that I can retrieve my information .
+As a user I want to delete a file so that I can remove unnecessary file. 
+As a user I want to close lockme app when my work is finished. 
+As a developer I want to build a logic to create files using Java file handlers. 
+As a developer I want to build an algorithm to search files by their names. 
+As a developer I want to build a logic to delete files using Java file handlers. 
+As a developer I want to build a logic to close the application. 
